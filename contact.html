@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="portfolio.js"></script>
+        <title>Home - Jofish</title>
+    </head>
+    
+    <body>
+
+        <a href="home.html"><img id="logo" src="goldLogo.png" alt=""></a>
+
+        <nav id="navbar">
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="womburger.html">Womburger 2</a>
+        </nav>
+
+        <div style="margin-left: auto; margin-right: auto;">
+            <img id="monitor" src="CRT Monitor.png" alt="">
+        </div>
+
+        <div>
+            <div id="contactform">
+
+                <h2 style="text-align: center;">Contact Me</h2>
+                <p style="text-align: center; padding-bottom: 15px;">Contact me here for business or questions. Thanks for visiting!</p>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="apikey" value="6903f28e-f3be-4443-85c5-85e27abf6917">
+                    <input type="hidden" name="access_key" value="6903f28e-f3be-4443-85c5-85e27abf6917">
+                
+                    <input type="hidden" name="redirect" value="http://127.0.0.1:3000/Portfolio Site/thanks.html">
+
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <input type="text" name="name" placeholder="Name" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <br>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                    <!-- Custom Confirmation / Success Page -->
+                    <br>
+                    <button type="submit" style="margin-bottom: 20px;">Submit Form</button>
+                
+                </form>
+
+            </div>
+        </div>
+
+        
+    </body>
+
+</html>

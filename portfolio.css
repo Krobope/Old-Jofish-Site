@@ -1,0 +1,259 @@
+html {
+
+    background-image: url(StarfieldSimulation.gif);
+    background-size: cover;
+
+}
+
+html, body, a, button, input, select {
+    cursor: url("compcursor/Computer Monitor.cur"), auto;
+}
+
+main {
+
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgba(213, 213, 213, 0.225);
+    background-color: rgba(192, 192, 192, 0.105);
+    backdrop-filter: blur(8px);
+    padding-top: 20px;;
+    border-radius: 5px;
+    background-image: url(fire.gif);
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    background-blend-mode: multiply;
+    position: relative;
+    z-index: 3;
+
+}
+
+input, textarea, button {
+
+    width: 80%;
+    display: inline-block;
+    margin: auto;
+    resize:vertical;
+
+}
+
+#contactform {
+
+    background-image: url(winxppro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position:relative;
+    width:410px;
+    height: 260px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+#monitor {
+
+    width: 600px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.cursor-trail {
+    position: absolute;
+    width: 32px; /* Adjust to match your cursor size */
+    height: 32px; /* Adjust to match your cursor size */
+    background-image: url("compcursor/Computer Monitor.cur"); /* Use your cursor image */
+    background-size: cover;
+    pointer-events: none;
+    z-index: 40;
+}
+
+#navbar {
+
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+#navbar > a {
+
+    background: linear-gradient(to bottom, rgb(140, 255, 0) 0%, rgb(0, 255, 30) 100%);
+    padding: 5px;
+    border: 2px solid rgb(15, 93, 17);
+    border-radius: 5px;
+
+}
+
+#explorerwindow {
+
+    background-image: url(winxppro.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    width: 778px;
+    height: 555px;
+
+}
+
+#aboutme {
+
+    word-wrap: break-word;
+    padding-top: 110px;
+    padding-left: 15px;
+    width: 90%;
+    height: 95%;
+
+}
+
+#spinningdisc {
+
+    position: absolute;
+    width: 30%;
+    top: 100px;
+    left: 55%;
+    background-repeat: no-repeat;
+
+}
+
+#rotatingdisc {
+
+    position: absolute;
+    width: 20%;
+    top: 200px;
+    left: 45%;
+
+}
+
+#solitare {
+
+    position: absolute;
+    width: 30%;
+    top: 275px;
+    left: 10%
+
+}
+
+#invertdiv {
+
+    width: 550px;
+    height: 225px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.309);
+    border: 5px solid white;
+    backdrop-filter: invert() brightness(70%);
+    z-index: 2;
+
+}
+
+#invertdiv2 {
+
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 240px;
+    left: 75%;
+    background-color: rgba(255, 255, 255, 0.309);
+    border: 5px solid white;
+    backdrop-filter: invert() brightness(90%);
+    z-index: 2;
+
+}
+
+#petmediaparent {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#intro {
+
+    color: white;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    width: 93%;
+    height: 65%;
+
+}
+
+#womby {
+
+    margin-left: 50px;
+    margin-right: 30px;
+
+}
+
+#mediaPlayer {
+
+    background-image: url(mediaplayer.png);
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    width: 315px;
+    height: 335px;
+    padding-top: 45px;
+    padding-left: 55px;
+    padding-right: 55px;
+    transform: rotate(-3deg);
+
+}
+
+#flowerbox {
+
+    position: absolute;
+    width: 100%;
+    top: 30px;
+
+}
+
+#tree {
+
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    bottom: 3%;
+
+}
+
+#mainBlock {
+
+    border: 5px solid rgb(236, 46, 78);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#logo {
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    max-width: 600px;
+    margin-top: 25px;
+    z-index: 1;
+    position: relative;
+
+}
